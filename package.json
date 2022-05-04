@@ -1,0 +1,24 @@
+{
+  "name": "api-back",
+  "version": "1.0.0",
+  "description": "基于nodejs以及周边中间件，开发一套完整的用户后台管理系统的api接口",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lukasavage/node-api-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-jwt": "^7.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  }
+}
